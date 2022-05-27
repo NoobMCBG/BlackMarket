@@ -1,0 +1,18 @@
+---
+# Min 1 - Max 30
+1:
+  button: "§l§3•§2 KingOfBlock §3•"
+  icon: "https://cdn-icons-png.flaticon.com/512/3141/3141842.png"
+  cost: 300
+  permission: "kingofblock.command"
+2:
+  button: "§l§3•§2 Eternity §3•"
+  icon: "https://cdn-icons-png.flaticon.com/512/749/749024.png"
+  cost: 300
+  permission: "eternity.command"
+3:
+  button: "§l§3•§2 Cổng Du Hành Thời Gian §3•"
+  icon: "https://cdn-icons-png.flaticon.com/512/7065/7065101.png"
+  cost: 500
+  permission: "originland.cmd"
+...
