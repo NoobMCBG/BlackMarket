@@ -10,6 +10,7 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use NoobMCBG\BlackMarket\Forms;
 use NoobMCBG\BlackMarket\BlackMarket;
+use jojoe77777\FormAPI\SimpleForm;
 
 class BlackMarketCommands extends Command implements PluginOwned {
 
