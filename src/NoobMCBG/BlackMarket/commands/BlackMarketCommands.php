@@ -34,9 +34,6 @@ class BlackMarketCommands extends Command implements PluginOwned {
 			if($data == null){
 				return true;
 			}
-			if($data == 0){
-				return true;
-			}
 			if($this->getOwningPlugin()->getMarket()->exists($data)){
 				if(!$player->hasPermission($this->getOwningPlugin()->getMarket()->get($data)["permission"])){
 					if($coin = \onebone\coinapi\CoinAPI::getInstance()->myCoin($player) >= $cost = $this->getOwningPlugin()->getMarket()->get($data)["cost"]){
