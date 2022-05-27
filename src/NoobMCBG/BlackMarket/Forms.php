@@ -31,13 +31,13 @@ class Forms {
 			    }
 			}
 		});
-        $form->setTitle("§l§6♦§2 Chợ Đen §6♦");
-        $form->addButton("§l§3•§2 Thoát Menu §3•");
-        for($i = 1;$i <= 30;$i++){
-        	if($instance->getMarket()->exists($i)){
-        	    $form->addButton($instance->getMarket()->get($i)["button"], 1, $instance->getMarket()->get($i)["icon"]);
+        	$form->setTitle("§l§6♦§2 Chợ Đen §6♦");
+        	$form->addButton("§l§3•§2 Thoát Menu §3•");
+        	for($i = 1;$i <= 30;$i++){
+        		if($instance->getMarket()->exists($i)){
+        	    		$form->addButton($instance->getMarket()->get($i)["button"], 1, $instance->getMarket()->get($i)["icon"]);
+        		}
         	}
-        }
-        $form->sendToPlayer($player);
+        	$form->sendToPlayer($player);
 	}
 }
