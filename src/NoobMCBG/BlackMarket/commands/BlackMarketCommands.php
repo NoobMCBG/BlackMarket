@@ -29,7 +29,7 @@ class BlackMarketCommands extends Command implements PluginOwned {
         	}
 	}
 	
-	public function menuMarkets(Player $player){
+	private function menuMarkets(Player $player){
 		$form = new SimpleForm(function(Player $player, $data) {
 			if($data == null){
 				return true;
