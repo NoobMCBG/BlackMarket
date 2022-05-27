@@ -21,11 +21,11 @@ class BlackMarketCommands extends Command implements PluginOwned {
 	}
 
 	public function execute(CommandSender $sender, string $label, array $args){
-        if($sender instanceof Player){
-        	Forms::menuMarkets($sender);
-        }else{
-        	$this->plugin->getLogger()->error("Please use command in-game");
-        }
+        	if($sender instanceof Player){
+        		Forms::menuMarkets($sender);
+        	}else{
+        		$this->plugin->getLogger()->error("Please use command in-game");
+        	}
 	}
 
 	public function getOwningPlugin() : BlackMarket {
